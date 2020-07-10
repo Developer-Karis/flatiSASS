@@ -31,6 +31,7 @@ body {
   background-color: #3676bb;
   border-radius: 2px; }
 
+/* ----- Banner Home ----- */
 .banner-home {
   display: flex;
   justify-content: center;
@@ -38,5 +39,28 @@ body {
 
 .banner-home img {
   width: 100%; }
+
+/* ----- Section 1 ----- */
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e6e0;
+  height: 300px;
+  font-size: 28px; }
+  .container-home .container-text {
+    text-align: center;
+    font-weight: bold;
+    color: #7a848d; }
+    .container-home .container-text .wordProgrammers {
+      background-color: #26a2cc;
+      color: white; }
+    .container-home .container-text .wordComplexity {
+      color: #26a2cc; }
+    .container-home .container-text .wordSimplicity {
+      color: black; }
+    .container-home .container-text p {
+      padding-top: 30px;
+      line-height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
