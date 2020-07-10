@@ -1,4 +1,4 @@
-* 
+*
     font-family: 'Montserrat', sans-serif 
 
 body
@@ -65,5 +65,113 @@ body
         p
             padding-top: 30px
             line-height: 50px
-            
 
+/* ----- Section 2 ----- */
+
+.container-about
+    margin-top: 50px
+    .row-top
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+    .row-top .col
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        flex-direction: column
+        width: 320px
+        height: 350px
+        background-color: rgb(226, 224, 224)
+        margin: 20px
+        border-radius: 5px
+        font-weight: bold
+        h1
+            text-transform: uppercase
+            color: rgb(92, 92, 92)
+        a
+            color: rgb(38, 162, 205)
+            text-decoration: none
+        p
+            color: rgb(142, 126, 126)
+        .fas
+            width: 70px
+            height: 70px
+            border-radius: 50%
+            background-color: white
+            font-size: 30px
+        i
+            display: flex
+            justify-content: center
+            align-items: center
+            color: rgb(54, 118, 187)
+    .row-bottom
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: auto
+        margin-right: 100px
+    .row-bottom .col
+        font-weight: bold
+        .container-left
+            margin: 100px
+        .container-card
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            text-align: center
+            .card
+                height: 300px
+                background-color: rgb(56, 72, 95)
+                border-radius: 5px
+                margin: 2px
+            h1
+                margin: 0
+                color: white
+                text-transform: uppercase
+                font-size: 20px
+                margin-top: 15px
+        h1
+            color: rgb(128, 128, 128)
+        p
+            white-space: pre-line
+            &:nth-child(2)
+                color: rgb(169, 169, 186)
+            &:nth-child(3)
+                color: rgb(128, 128, 128)
+        button
+            background-color: rgb(38, 162, 205)
+            color: white
+            outline: none
+            border: none
+            padding: 25px 20px
+            border-radius: 5px
+            cursor: pointer
+        
+/* ----- Footer ----- */
+
+.container-footer 
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    .container-footer-top
+        height: 250px
+        width: 100%
+        background-color: rgb(54, 118, 187)
+        padding-top: 20px
+        color: rgb(176, 182, 205)
+        h1
+            text-transform: uppercase
+            letter-spacing: 5px
+    .container-footer-bottom
+        height: 80px
+        background-color: rgb(54, 59, 71)
+        span
+            line-height: 80px
+    .iconItems
+        font-size: 40px
+        margin-top: 20px
+        margin-bottom: 20px
